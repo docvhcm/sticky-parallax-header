@@ -117,7 +117,7 @@ class DetailsHeader extends React.Component {
         style={[
           styles.background,
           {
-            borderBottomRightRadius: headerBorderRadius,
+            borderBottomRightRadius: Number(headerBorderRadius),
             backgroundColor
           }
         ]}
